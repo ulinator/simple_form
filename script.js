@@ -3,7 +3,7 @@
 // validation rules 
 var nameReg = /^([A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]{1,})?$/ ;
 var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/ ;
-var ignoredEmails = ["interia.pl","google.com","wp.pl"];
+var ignoredEmails = ["interia.pl","gmail.com","wp.pl"];
 
 var validationRules = {
     firstname: {
