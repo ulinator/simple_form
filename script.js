@@ -1,7 +1,7 @@
 'use strict'
 
 // validation rules 
-var nameReg = /^([A-Za-z]{1,})?$/ ;
+var nameReg = /^([A-Za-zżźćńółęąśŻŹĆĄŚĘŁÓŃ]{1,})?$/ ;
 var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/ ;
 var ignoredEmails = ["interia.pl","google.com","wp.pl"];
 
