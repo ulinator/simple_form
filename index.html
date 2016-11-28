@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<nav class="navigation">
+		<ul>
+			<li class="link"><a href="#header">Hello</a></li>
+			<li class="link"><a href="#about">About our form</a></li>
+			<li class="link"><a href="#form_section">Sign up</a></li>
+		</ul>
+	</nav>
+
+	<section id="header" class="header">
+		<div class="container">
+			<h1 class="title">Hello, welcome to our simple form.</h1>
+			<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum id massa sit amet elementum. Vivamus aliquam vehicula urna, quis elementum magna mollis et.</p>
+			<p><a href="#form">Sign up here!</a></p>
+		</div>
+	</section>
+
+	<section id="about" class="about contrast">
+		<div class="container">
+			<h1 class="title">Please, sign up with our form to recieve what you desire.</h1>
+			<p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum id massa sit amet elementum. Vivamus aliquam vehicula urna, quis elementum magna mollis et. Aliquam sed malesuada leo, a consequat est. Vivamus tincidunt nec nisi non porta. Nulla sodales justo quam, ac molestie tortor finibus vel.</p>	
+		</div>
+	</section>
+
+	<section id="form_section" class="form">
+		<h1 class="title">Input your data and sign up!</h1>
+		<div class="container">
+			<form id="form" action="validated.html"> 
+	
+	 			<input class="input"
+	 			name="firstname"
+	 			type="text"
+	 			required="required"
+	 			placeholder="Name">
+	 			<p class="error"></p>
+
+	 			<input class="input"
+	 			name="lastname"
+	 			type="text" 
+	 			required="required" 
+	 			placeholder="Last name">
+	 			<p class="error"></p>
+
+	 			<input class="input" 
+	 			name="email"
+	 			type="text"
+	 			required="required" 
+	 			placeholder="E-mail">
+	 			<p class="error"></p>
+
+	 			<button id="submit" class="button" name="button" type="submit">Submit!</button>
+	 			
+
+	 		</form>
+ 		</div>
+	</section>
+
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>
